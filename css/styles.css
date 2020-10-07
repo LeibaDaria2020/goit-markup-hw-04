@@ -389,19 +389,20 @@ body {
   background: #2f303a;
   padding: 60px 0px;
 }
-
-.footer > .container .logo-footer {
+.footer-sections {
   display: flex;
   align-items: flex-start;
 }
 
 .nav-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  /* padding-top: 60px;
+  padding-bottom: 60px; */
 }
 
 .footer-wraper {
-  display: block;
+  display: flex;
   padding-bottom: 20px;
 }
 
@@ -456,13 +457,12 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .join-networks {
-  display: inline-block;
-  min-width: 206px;
-  height: 120px;
+  display: flex;
+  flex-direction: column;
   margin-left: 102px;
 }
 .join-title {
-  display: block;
+  display: flex;
   margin-bottom: 21px;
   text-align: left;
   margin-bottom: 20px;
