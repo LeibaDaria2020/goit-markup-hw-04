@@ -492,6 +492,7 @@ body {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
   fill: #ffff;
 }
 
@@ -507,7 +508,7 @@ body {
 .icons-networks {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+  fill: currentColor;
 }
 .icons-networks:hover {
   fill: white;
