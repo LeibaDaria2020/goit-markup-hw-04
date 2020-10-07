@@ -492,8 +492,8 @@ body {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  color: #fff;
-  fill: #ffff;
+  color: #ffffff;
+  fill: #fffff;
 }
 
 .footer-network-icons:hover .icons-networks {
