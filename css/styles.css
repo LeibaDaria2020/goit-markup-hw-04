@@ -397,8 +397,6 @@ body {
 .nav-footer {
   display: flex;
   flex-direction: column;
-  /* padding-top: 60px;
-  padding-bottom: 60px; */
 }
 
 .footer-wraper {
@@ -410,7 +408,6 @@ body {
   display: inline-block;
   margin: 0px;
   padding: 0px;
-  /* width: 231px; */
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
@@ -495,9 +492,13 @@ body {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  /* fill: rgba(255, 255, 255, 0.1); */
+  fill: #fffff;
 }
 
+.footer-network-icons:hover .icons-networks {
+  background-color: var(--hover-color);
+  fill: white;
+}
 .footer-network-icons:hover {
   background: var(--hover-color);
   fill: white;
